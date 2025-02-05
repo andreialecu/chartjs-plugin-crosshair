@@ -1,4 +1,3 @@
-
 <div align="center">
     <centering>
     <img src="header.png" width='600px'/>
@@ -66,13 +65,13 @@ You first need to install node dependencies (requires [Node.js](https://nodejs.o
 
 The following commands will then be available from the repository root:
 
-    > gulp build            // build dist files
-    > gulp build --watch    // build and watch for changes
-    > gulp lint             // perform code linting
-    > gulp docs             // generate GitBook documentation (`dist/docs`)
-    > gulp samples          // prepare samples for release (`dist/samples`)
-    > gulp package          // create an archive with dist files and samples
-    > gulp netlify          // prepare Netlify artifacts (`dist/www`)
+    > npm run build            // build dist files
+    > npm run build --watch    // build and watch for changes
+    > npm run lint             // perform code linting
+    > npm run docs             // generate GitBook documentation (`dist/docs`)
+    > npm run samples          // prepare samples for release (`dist/samples`)
+    > npm run package          // create an archive with dist files and samples
+    > npm run netlify          // prepare Netlify artifacts (`dist/www`)
 
 ## License
 
